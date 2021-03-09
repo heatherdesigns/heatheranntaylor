@@ -29,6 +29,7 @@
 //    If using features such as custom properties, those that are global
 //    custom properties should be described in this section.
 @use "settings/variables";
+@use "settings/fonts";
 
 
 // =====================================================================
@@ -63,6 +64,8 @@
 // 6. Components
 //    Specific UI components. This is where majority of our work takes place
 //    and our UI components are often composed of Objects and Components.
+@use "components/home";
+
 
 // =====================================================================
 // 7. Vendors
